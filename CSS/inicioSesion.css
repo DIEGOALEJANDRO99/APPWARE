@@ -1,0 +1,93 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.logo {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logo img {
+    width: 150px;
+    border-image-slice: fill;
+
+
+}
+
+form {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(14, 150, 184);
+    border-radius: 20px;
+
+
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid lightblue;
+    width: 80%;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+::placeholder {
+    color: rgb(226, 222, 215);
+    font-size: 20px;
+    text-align: left;
+
+
+}
+
+button {
+
+    width: 80%;
+    margin-top: 80px;
+    border: 1px solid lightblue;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+label {
+    letter-spacing: 3px;
+
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    margin: 15px;
+
+}
+
+footer {
+
+    margin-top: 50px;
+    font-size: 22px;
+    color: rgb(143, 142, 142);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
