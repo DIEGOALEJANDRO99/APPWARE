@@ -78,82 +78,62 @@ a:visited {
     text-decoration: none;
 }
 
-
-#titulo {
-    text-align: center;
-    padding-bottom: 30px;
-
-}
-
-#titulo h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    font-size: 30px;
-    ;
-}
-
-#contenedor {
+body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#descripcion {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
 
 }
 
-#contenedor div {
-    text-align: center;
-    padding: 20px;
-    height: 500px;
-    overflow: visible;
+#prod {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    width: 50%;
+    height: 350px;
+    background-image: url('/IMG/ASUS-Z590-motherboard-lineup-video.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
-section {
-    max-width: 100%;
+.nombre {
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 600px;
-
-
-
-}
-
-#main {
-    width: 100%;
-
-}
-
-span {
-    display: block;
-}
-
-
-#border div {
-    border: 1px solid rgb(124, 196, 196);
-    height: 40%;
-
-
-}
-
-#border h1 {
-    font-size: 18px;
-    font-weight: lighter;
-}
-
-#border h3 {
-    font-size: 50px;
-    margin: 20px 0 20px 0;
-    font-weight: lighter;
+    width: 50%;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
-#border span {
-    font-size: 12px;
+.nombre p,
+.nombre h3 {
+    text-align: justify;
+    padding: 0 15px 0 15px;
 }
 
-#border button {
+.nombre h3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.nombre button {
+    text-align: center;
+    width: 50%;
     margin-top: 20px;
     border: none;
     background-color: rgb(124, 196, 196);
@@ -162,6 +142,11 @@ span {
     height: 30px;
     color: white;
 }
+
+
+
+
+
 
 footer {
 

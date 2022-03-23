@@ -1,0 +1,184 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+.logo {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 150px;
+
+}
+
+#bolsa {
+    width: 25px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 50%;
+}
+
+#perfil {
+    width: 25px;
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+
+#flecha {
+    width: 20px;
+    position: relative;
+    right: 70px;
+    bottom: 1px;
+
+
+
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 0;
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+li {
+
+    margin: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: auto;
+
+
+}
+
+.contendorProd {
+    margin: 20px;
+    width: 300px;
+    height: 450px;
+
+}
+
+.imgProd {
+    background-image: url('/IMG/ASUS-Z590-motherboard-lineup-video.jpg');
+    background-position: center;
+    background-size: contain;
+    height: 50%;
+    margin: 0;
+
+}
+
+.imgProd1 {
+    background-image: url('/IMG/Core\ i3\ 10105\ -\ 590000.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+    margin: 0;
+}
+
+.imgProd2 {
+    background-image: url('/IMG/GeForce_RTX_3090_2.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    margin: 0;
+}
+
+.imgProd3 {
+    background-image: url('/IMG/Procesador\ AMD\ Ryzen\ 9\ 5950X\ 3.092.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    margin: 0;
+}
+
+.imgProd4 {
+    background-image: url('/IMG/i7\ 12700k\ 1.990.jpg');
+
+    background-position: center;
+    height: 50%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.imgProd5 {
+    background-image: url('/IMG/ram.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+    margin: 0;
+}
+
+
+.contendorProd img {
+    width: 300px;
+    height: 50%;
+}
+
+.informacion {
+    height: 50%;
+
+}
+
+.informacion hr {
+    width: 100%;
+    border: none;
+    border: 1px solid rgb(124, 196, 196);
+}
+
+footer {
+    font-size: 22px;
+    color: rgb(143, 142, 142);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
