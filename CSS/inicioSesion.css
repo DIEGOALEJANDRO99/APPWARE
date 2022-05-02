@@ -21,14 +21,14 @@ html {
 }
 
 .logo img {
-    width: 150px;
+    width: 120px;
     border-image-slice: fill;
 
 
 }
 
 form {
-    margin-top: 50px;
+    margin-top: 150px;
     width: 500px;
     height: 500px;
     display: flex;
@@ -104,7 +104,7 @@ label {
 
 footer {
 
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 22px;
     color: rgb(143, 142, 142);
     width: 100%;

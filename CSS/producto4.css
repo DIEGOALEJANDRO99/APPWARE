@@ -104,7 +104,7 @@ body {
 .imagen {
     width: 50%;
     height: 350px;
-    background-image: url('/IMG/ASUS-Z590-motherboard-lineup-video.jpg');
+    background-image: url('/IMG/ram.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ body {
 }
 
 .nombre {
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,8 +122,11 @@ body {
 
 .nombre p,
 .nombre h3 {
-    text-align: justify;
-    padding: 0 15px 0 15px;
+    text-align: center;
+    padding: 0 15px 0 35px;
+    font-weight: bolder;
+    font-size: 25px;
+
 }
 
 .nombre h3 {
@@ -145,11 +148,17 @@ body {
 
 
 
-
+.lista{
+    margin-top: 40px;
+    width: 50%;
+    text-align: justify;
+    color: gray;
+    
+}
 
 
 footer {
-
+    margin-top: 200px;
     font-size: 22px;
     color: rgb(143, 142, 142);
     width: 100%;
